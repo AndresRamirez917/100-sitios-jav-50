@@ -221,8 +221,9 @@ ul {
   padding: 30px;
 }
 #pricing .pricing-box img {
-  width: 30%;
+  width: 50%;
   margin-bottom: 1rem;
+  border-radius: 50%;
 }
 #pricing .pricing-box p {
   margin-top: 1rem;
