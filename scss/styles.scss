@@ -260,6 +260,61 @@ ul {
     }
 }
 
+.flex {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+
+//contact
+#contact {
+    width: 90%;
+    margin: 0 auto;
+    h2 {
+        text-align: center;
+        font-size: 5rem;
+        font-weight: 300;
+        margin: 3rem;
+    }
+   form {
+    width: 75%;
+    margin: 0 auto;
+    .form-group {
+        width: 100%;
+    }
+    .form-control {
+        width: 100%;
+        display: block;
+        padding: .5rem;
+        margin-bottom: 1rem;
+        margin-top: .5rem;
+        border-radius: 5px;
+        border: 1px solid black;  
+    }
+    button {
+        width: 100%;
+        margin: .5rem 0 .5rem 0;
+        padding: 10px;
+        background: #000;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 5px;
+    }
+    .flexbox {
+        flex: 1;
+    }
+   }
+   ::placeholder {
+    font-family: "Font Awesome 5 free";
+    font-weight: 500;
+    content: "\f007";
+    text-align: right;
+   }
+}
+
 //footer
 .grid-5 {
     display: grid;
